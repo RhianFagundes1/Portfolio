@@ -5,9 +5,21 @@
   --cor-links: #3B7542
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
+}
+
+.apresentacao{
+  display: flex;
+  margin: 10%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 strong{
@@ -15,11 +27,10 @@ strong{
 }
 
 a{
-  color: var(--cor-texto);
-  font-size: 18px;
-  text-decoration: none;
-  background-color: var(--cor-destaque);
-  padding: 10px 30px;
-  margin: 10px;
-  border-radius: 20px;
+
+}
+
+.foto{
+  height: 490px;
+  width: 490px;
 }
